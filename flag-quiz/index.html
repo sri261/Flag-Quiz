@@ -1,0 +1,167 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <title>Flag Quiz</title>
+  </head>
+  <body>
+    <!-- top section -->
+    <div class="intro py-3 bg-white text-center">
+      <div class="container">
+        <h2 class="text-secondary display-3 my-4">Flag Quiz</h2>
+      </div>
+    </div>
+
+    <div class="result py-4 d-none bg-light text-center">
+      <div class="container lead">
+        <p>
+          Your score is <span class="text-secondary display-4 p-3">0%</span>
+        </p>
+      </div>
+    </div>
+    <!-- quiz section -->
+    <div class="quiz py-4 bg-secondary">
+      <div class="container">
+        <h2 class="my-5 text-white text-center">On with the quiz</h2>
+        <form class="quiz-form text-light">
+          <!-- =========================================== -->
+          <div class="my-5">
+            <div class="text-center">
+              <img
+                src="./images/canada.svg"
+                class="img-thumbnail rounded"
+                alt="flag img"
+              />
+            </div>
+
+            <p class="lead font-weight-normal mt-5px text-center">
+              We have Maple Syrup.
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="Q1" value="A" checked />
+              <label class="form-check-label">Peru</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="Q1" value="B" />
+              <label class="form-check-label">Canada</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="Q1" value="B" />
+              <label class="form-check-label">Lebanon</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="Q1" value="B" />
+              <label class="form-check-label">Austria</label>
+            </div>
+          </div>
+          <!-- =========================================== -->
+          <div class="my-5">
+            <div class="text-center">
+              <img
+                src="./images/israel.svg"
+                class="img-thumbnail rounded"
+                alt="flag img"
+              />
+            </div>
+
+            <p class="lead font-weight-normal text-center">
+              We have the Dead sea
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="Q2" value="A" checked />
+              <label class="form-check-label">Israel</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="Q2" value="B" />
+              <label class="form-check-label">Argentina</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="Q2" value="B" />
+              <label class="form-check-label">Honduras</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="Q2" value="B" />
+              <label class="form-check-label">El Salvador</label>
+            </div>
+          </div>
+          <!-- =========================================== -->
+          <div class="my-5">
+            <div class="container"></div>
+            <div class="text-center">
+              <img
+                src="./images/niger.svg"
+                class="img-thumbnail rounded"
+                alt="flag img"
+              />
+            </div>
+
+            <p class="lead font-weight-normal text-center">
+              Frying pan of the world
+            </p>
+
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="Q3" value="A" checked />
+              <label class="form-check-label">India</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="Q3" value="B" />
+              <label class="form-check-label">Niger</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="Q3" value="B" />
+              <label class="form-check-label">Hungary</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="Q3" value="B" />
+              <label class="form-check-label">Tajikistan </label>
+            </div>
+          </div>
+          <!-- =========================================== -->
+          <div class="my-5">
+            <div class="text-center">
+              <img
+                src="./images/singapore.svg"
+                class="img-thumbnail rounded"
+                alt="flag img"
+              />
+            </div>
+
+            <p class="lead font-weight-normal text-center">
+              Chewing gum is banned
+            </p>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="Q4" value="A" checked />
+              <label class="form-check-label">Indonesia</label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="Q4" value="B" />
+              <label class="form-check-label">Indonesia </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="Q4" value="C" />
+              <label class="form-check-label"> Thailand </label>
+            </div>
+            <div class="form-check my-2 text-white-50">
+              <input type="radio" name="Q4" value="D" />
+              <label class="form-check-label">Singapore</label>
+            </div>
+          </div>
+          <!-- =========================================== -->
+
+          <div class="text-center">
+            <input type="submit" class="btn btn-light" />
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
